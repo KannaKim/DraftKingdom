@@ -1,0 +1,4 @@
+﻿20200329 basic step is done now it needs to show pick and ban simultaneously w other user (done)
+-> style must be shared (done ) -> !performance -> page keep refreshing everytime data update
+I'm assuming it's because it's not asynchrnous (working on) -> it's asynchronous now but still reload the page
+-> turns out it was because of angular cli - if change detected, automatically reload.

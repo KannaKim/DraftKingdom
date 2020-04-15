@@ -1,0 +1,67 @@
+<div class = "wrap">
+    <div class= "header">
+        <div class = "app-title">
+            <img src="..\assets\title\title-transparent-black.png">
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <div class="content-main-container">
+            <div class = "which-side-pick blue-side">
+                <h1 class= "which-side" style="color:#14bdff">Blue side</h1>
+                <div class= "pick" *ngFor="let bs_pk of pb.blue_pick;index as i;trackBy: TrackByIndex">
+                    <img src="{{pb.blue_pick[i].img_src}}" attr.data-champion-index="{{pb.blue_pick[i].data_source_index}}" id="bluePick-{{i}}" (dragstart)="DragStart($event)" (dragleave)="PickDragLeave($event)" (dragenter)="PickDragEnter($event)" (dragover)="DragOver($event)" (drop)="BluePickDrop($event)">
+                    <p>B{{i+1}}</p>
+                </div>
+            </div>
+            <div class = "champion-container" (drop)="ChampionContainerDrop($event)" (dragstart)="DragStart($event)" (dragover)="DragOver($event)">
+                <div class = "search-bar top-nav">
+                    <input (keyup)="ChampSearch($event)" class="float-right" type="text" placeholder="Search..">
+                </div>
+                <div class="champion-list">
+                    <ng-container *ngFor ="let champ of champList;index as i;trackBy: TrackByIndex">
+                    <img class="champion-list-thumbnail" src = "../assets/lol-champion-square-img/{{champList[i].name}}" id="{{champList[i].name | replace:'Square.png':'' |lowercase}}" attr.data-champion-index="{{i}}"
+                    *ngIf="champList[i].visible" [style.filter]="champList[i].filter" [draggable]="champList[i].draggable" [style.cursor]="champList[i].cursor" (dragstart)="DragStart($event)" (dragend)="ChampDrageEnd($event)" draggable="true" (dragover)="DragOver($event)">
+                    </ng-container>
+                </div>
+            </div>
+            <div class = "which-side-pick red-side">
+            <h1 class= "which-side" style="color:red">Red side</h1>
+            <div class= "pick" *ngFor="let red_pick of pb.red_pick;index as i;trackBy: TrackByIndex">
+                <p>R{{i+1}}</p>
+                <img src="{{pb.red_pick[i].img_src}}" attr.data-champion-index="{{pb.red_pick[i].data_source_index}}"  id="redPick-{{i}}" (dragstart)="DragStart($event)" (dragleave)="PickDragLeave($event)" (dragenter)="PickDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedPickDrop($event)">
+            </div>
+            </div>   
+        </div>
+        <div class="ban-phase-wrapper">
+            <div class="ban-phase blue">
+                <div class="ban-phase-row ban-phase-1 blue">
+                    <p>Phase 1</p>
+                    <img src = "{{pb.blue_ban[0].img_src}}" attr.data-champion-index="{{pb.blue_ban[0].data_source_index}}" id="blueBan-{{0}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="BlueBanDrop($event)">
+                    <img src = "{{pb.blue_ban[1].img_src}}" attr.data-champion-index="{{pb.blue_ban[1].data_source_index}}"id="blueBan-{{1}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="BlueBanDrop($event)">
+                    <img src = "{{pb.blue_ban[2].img_src}}" attr.data-champion-index="{{pb.blue_ban[2].data_source_index}}"id="blueBan-{{2}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="BlueBanDrop($event)">
+                </div>
+                <div class="ban-phase-row ban-phase-2 blue">
+                    <p>Phase 2</p>
+                    <img src = "{{pb.blue_ban[3].img_src}}" attr.data-champion-index="{{pb.blue_ban[3].data_source_index}}"id="blueBan-{{3}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="BlueBanDrop($event)">
+                    <img src = "{{pb.blue_ban[4].img_src}}" attr.data-champion-index="{{pb.blue_ban[4].data_source_index}}"id="blueBan-{{4}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="BlueBanDrop($event)">
+                </div>
+            </div>
+            <div class="ban-phase red">
+                <div class="ban-phase-row ban-phase-1 red">
+                    <p>Phase 1</p>
+                    <img src = "{{pb.red_ban[0].img_src}}" attr.data-champion-index="{{pb.red_ban[0].data_source_index}}" id="redBan-{{0}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedBanDrop($event)">
+                    <img src = "{{pb.red_ban[1].img_src}}" attr.data-champion-index="{{pb.red_ban[1].data_source_index}}"id="redBan-{{1}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedBanDrop($event)">
+                    <img src = "{{pb.red_ban[2].img_src}}" attr.data-champion-index="{{pb.red_ban[2].data_source_index}}" id="redBan-{{2}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedBanDrop($event)">
+                </div>
+                <div class="ban-phase-row ban-phase-2 red">
+                    <p>Phase 2</p>
+                    <img src = "{{pb.red_ban[3].img_src}}" attr.data-champion-index="{{pb.red_ban[3].data_source_index}}"id="redBan-{{3}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedBanDrop($event)">
+                    <img src = "{{pb.red_ban[4].img_src}}" attr.data-champion-index="{{pb.red_ban[4].data_source_index}}"id="redBan-{{4}}" (dragstart)="DragStart($event)" (dragleave)="BanDragLeave($event)" (dragenter)="BanDragEnter($event)" (dragover)="DragOver($event)" (drop)="RedBanDrop($event)">
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="footer">
+  
+    </div>
+  </div>

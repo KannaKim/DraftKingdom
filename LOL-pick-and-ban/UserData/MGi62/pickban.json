@@ -1,0 +1,91 @@
+{
+  "sessID": "MGi62",
+  "red_pick": [
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    }
+  ],
+  "blue_pick": [
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    }
+  ],
+  "red_ban": [
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    }
+  ],
+  "blue_ban": [
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    },
+    {
+      "img_src": "../assets/icon/question-mark.svg",
+      "data_source_index": "null"
+    }
+  ]
+}

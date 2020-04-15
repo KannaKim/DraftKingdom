@@ -1,0 +1,19 @@
+
+<div class="options-wrapper">
+  <img src="../assets/icon/setting.svg" class="setting_img" [ngStyle]="{'opacity':option_img_opacity}" (click)="OptionsClick($event)" (mouseleave)="OptionsMouseLeave($event)"(mouseenter)="OptionsMouseEnter($event)"/>
+  <div class="popup-menu" (mouseleave)="PopupMouseLeave($event)"(mouseenter)="PopupMouseEnter($event)" [ngStyle]="{'opacity':popup_menu_opacity,'visibility': popup_menu_visibility}">
+    <div class="options-instruc">
+      pick mode
+    </div>
+    <div class="option-chckbox-wrapper">
+      <label class="option">
+        <input type="checkbox" name="free" />
+        <span>Free</span>
+      </label>
+      <label class="option">
+        <input type="checkbox" name="tournament" />
+        <span>Tournaments</span>
+      </label>
+    </div>
+  </div>
+</div>

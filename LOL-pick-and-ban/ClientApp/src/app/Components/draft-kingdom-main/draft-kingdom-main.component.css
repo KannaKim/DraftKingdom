@@ -1,0 +1,105 @@
+img{
+    cursor: pointer;
+}
+
+.app-title{
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.app-title img{
+    display:block;
+    margin:auto;
+}
+.wrap{
+    min-width: 1080px;
+    min-height: 100%;
+}
+.main-wrapper{
+    height: 550px;
+    min-height:550px;        
+}
+.champion-container{
+    background-color: #8e9bad;
+    overflow: auto;
+    width: 500px;
+}
+.champion-list img{
+    width: 60px;
+    margin: 10px;
+}
+.search-bar{
+    height: 30px;
+    margin-bottom: 20px;
+    position:sticky;
+    background-color: #8e9bad;
+    top:0;
+}
+.content-main-container{
+    margin: 0 auto;
+    height: 100%;
+    width:1080px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.which-side-pick{
+    position:relative;
+    top: -50px;
+}
+.which-side-pick .pick{
+    display:flex;
+    margin:20px;
+}
+.which-side-pick .pick img{
+    margin-right: 40px;
+    margin-left: 40px;
+    width:60px;
+    height:60px
+}
+.which-side-pick .pick p{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 40px;
+}
+.red-side p{
+    color: red;
+    margin-left:20px;
+}
+.blue-side p{
+    color: blue;
+    margin-right:20px;
+}
+.which-side-pick img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.which-side{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ban-phase-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.ban-phase{
+   margin-right: 20px;
+}
+.ban-phase-row{
+    display:flex;
+    margin:10px;
+}
+.phase-info-wrapper{
+    vertical-align: text-bottom;
+}
+.ban-phase-row p{
+    color:white;
+    font-size: large;
+    margin: 20px;
+}
+.ban-phase-row img{
+    height:60px;
+    width:60px;
+}

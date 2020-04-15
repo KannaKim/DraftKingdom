@@ -1,0 +1,750 @@
+{
+  "sessID": "lnY21",
+  "infoDic": {
+    "aatrox": {
+      "draggable": false,
+      "filter": "grayscale(1)",
+      "cursor": "default"
+    },
+    "ahri": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "akali": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "alistar": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "amumu": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "anivia": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "annie": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "aphelios": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ashe": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "aurelionsol": {
+      "draggable": false,
+      "filter": "grayscale(1)",
+      "cursor": "default"
+    },
+    "azir": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "bard": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "blitzcrank": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "brand": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "braum": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "caitlyn": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "camille": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "cassiopeia": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "chogath": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "corki": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "darius": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "diana": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "draven": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "drmundo": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ekko": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "elise": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "evelynn": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ezreal": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "fiddlesticks": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "fiora": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "fizz": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "galio": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "gangplank": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "garen": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "gnar": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "gragas": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "graves": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "hecarim": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "heimerdinger": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "illaoi": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "irelia": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ivern": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "janna": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "jarvaniv": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "jax": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "jayce": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "jhin": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "jinx": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kai'sa": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kalista": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "karma": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "karthus": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kassadin": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "katarina": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kayle": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kayn": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kennen": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kha'zix": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kindred": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kled": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "kog'maw": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "leblanc": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "leesin": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "leona": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "lissandra": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "lucian": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "lulu": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "lux": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "malphite": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "malzahar": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "maokai": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "masteryi": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "missfortune": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "mordekaiser": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "morgana": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nami": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nasus": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nautilus": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "neeko": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nidalee": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nocturne": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "nunu&willump": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "olaf": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "orianna": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ornn": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "pantheon": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "poppy": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "pyke": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "qiyana": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "quinn": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rakan": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rammus": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rek'sai": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "renekton": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rengar": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rhaast": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "riven": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "rumble": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ryze": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sejuani": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "senna": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sett": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "shaco": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "shen": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "shyvana": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "singed": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sion": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sivir": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "skarner": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sona": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "soraka": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "swain": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "sylas": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "syndra": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "tahmkench": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "taliyah": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "talon": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "taric": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "teemo": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "thresh": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "tristana": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "trundle": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "tryndamere": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "twistedfate": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "twitch": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "udyr": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "urgot": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "varus": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "vayne": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "veigar": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "vel'koz": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "viktor": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "vi": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "vladimir": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "volibear": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "warwick": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "wukong": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "xayah": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "xerath": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "xinzhao": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "yasuo": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "yorick": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "yuumi": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "zac": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "zed": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "ziggs": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "zilean": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "zoe": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    },
+    "zyra": {
+      "draggable": true,
+      "filter": "none",
+      "cursor": "pointer"
+    }
+  }
+}
