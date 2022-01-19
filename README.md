@@ -1,5 +1,3 @@
-# DraftKingdom
-
 # What is Draft Kingdom?
 
 draft kingdom is a free-for-all web-app that simulates League of Legend's Pick/Ban 
