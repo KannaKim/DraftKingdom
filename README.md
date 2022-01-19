@@ -10,5 +10,7 @@ unfortunately I'm not planning on launching this app. But if anyone feel like it
 
 credit me if you want.
 
+this app was made with asp.net
+
 # Preview
 ![DraftKingdom gif preview](https://i.imgur.com/jqTA42q.gif)
